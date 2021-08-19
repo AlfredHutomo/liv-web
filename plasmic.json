@@ -1,0 +1,333 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "9exzG1GT62JcZadLz4owTA",
+      "projectName": "Xiang Portfolio",
+      "version": "latest",
+      "cssFilePath": "plasmic/xiang_portfolio/plasmic_xiang_portfolio.module.css",
+      "components": [
+        {
+          "id": "bMdKBFFfzs",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "9exzG1GT62JcZadLz4owTA",
+          "renderModuleFilePath": "plasmic/xiang_portfolio/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/xiang_portfolio/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "2H0V71C99l",
+          "name": "Nav",
+          "type": "managed",
+          "projectId": "9exzG1GT62JcZadLz4owTA",
+          "renderModuleFilePath": "plasmic/xiang_portfolio/PlasmicNav.jsx",
+          "importSpec": {
+            "modulePath": "Nav.jsx"
+          },
+          "cssFilePath": "plasmic/xiang_portfolio/PlasmicNav.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "MOY-0ywah5",
+          "name": "About",
+          "type": "managed",
+          "projectId": "9exzG1GT62JcZadLz4owTA",
+          "renderModuleFilePath": "plasmic/xiang_portfolio/PlasmicAbout.jsx",
+          "importSpec": {
+            "modulePath": "../pages/about.jsx"
+          },
+          "cssFilePath": "plasmic/xiang_portfolio/PlasmicAbout.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "md0Yrhuhaz",
+          "name": "Portfolio",
+          "type": "managed",
+          "projectId": "9exzG1GT62JcZadLz4owTA",
+          "renderModuleFilePath": "plasmic/xiang_portfolio/PlasmicPortfolio.jsx",
+          "importSpec": {
+            "modulePath": "../pages/portfolio.jsx"
+          },
+          "cssFilePath": "plasmic/xiang_portfolio/PlasmicPortfolio.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "iJP9-7cgRa",
+          "name": "Social",
+          "type": "managed",
+          "projectId": "9exzG1GT62JcZadLz4owTA",
+          "renderModuleFilePath": "plasmic/xiang_portfolio/PlasmicSocial.jsx",
+          "importSpec": {
+            "modulePath": "Social.jsx"
+          },
+          "cssFilePath": "plasmic/xiang_portfolio/PlasmicSocial.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "eCdmC84KTs",
+          "name": "NavTop",
+          "type": "managed",
+          "projectId": "9exzG1GT62JcZadLz4owTA",
+          "renderModuleFilePath": "plasmic/xiang_portfolio/PlasmicNavTop.jsx",
+          "importSpec": {
+            "modulePath": "NavTop.jsx"
+          },
+          "cssFilePath": "plasmic/xiang_portfolio/PlasmicNavTop.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "4XVncLvLu9",
+          "name": "TwoRowLayout",
+          "type": "managed",
+          "projectId": "9exzG1GT62JcZadLz4owTA",
+          "renderModuleFilePath": "plasmic/xiang_portfolio/PlasmicTwoRowLayout.jsx",
+          "importSpec": {
+            "modulePath": "TwoRowLayout.jsx"
+          },
+          "cssFilePath": "plasmic/xiang_portfolio/PlasmicTwoRowLayout.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "qmi9gzc5EPV",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "9exzG1GT62JcZadLz4owTA",
+          "renderModuleFilePath": "plasmic/xiang_portfolio/PlasmicFooter.jsx",
+          "importSpec": {
+            "modulePath": "Footer.jsx"
+          },
+          "cssFilePath": "plasmic/xiang_portfolio/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "3p1beTTXOe",
+          "name": "ComingSoon",
+          "type": "managed",
+          "projectId": "9exzG1GT62JcZadLz4owTA",
+          "renderModuleFilePath": "plasmic/xiang_portfolio/PlasmicComingSoon.jsx",
+          "importSpec": {
+            "modulePath": "../pages/coming.jsx"
+          },
+          "cssFilePath": "plasmic/xiang_portfolio/PlasmicComingSoon.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "sEatx_evem",
+          "name": "ContainedCenteredBox",
+          "type": "managed",
+          "projectId": "9exzG1GT62JcZadLz4owTA",
+          "renderModuleFilePath": "plasmic/xiang_portfolio/PlasmicContainedCenteredBox.jsx",
+          "importSpec": {
+            "modulePath": "ContainedCenteredBox.jsx"
+          },
+          "cssFilePath": "plasmic/xiang_portfolio/PlasmicContainedCenteredBox.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "S0p9CCVZas",
+          "name": "ButtonLink",
+          "type": "managed",
+          "projectId": "9exzG1GT62JcZadLz4owTA",
+          "renderModuleFilePath": "plasmic/xiang_portfolio/PlasmicButtonLink.jsx",
+          "importSpec": {
+            "modulePath": "ButtonLink.jsx"
+          },
+          "cssFilePath": "plasmic/xiang_portfolio/PlasmicButtonLink.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "qxH2iITxwI",
+          "name": "MenuButton",
+          "type": "managed",
+          "projectId": "9exzG1GT62JcZadLz4owTA",
+          "renderModuleFilePath": "plasmic/xiang_portfolio/PlasmicMenuButton.jsx",
+          "importSpec": {
+            "modulePath": "MenuButton.jsx"
+          },
+          "cssFilePath": "plasmic/xiang_portfolio/PlasmicMenuButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "46iviTGWOP",
+          "name": "MenuOverlay",
+          "type": "managed",
+          "projectId": "9exzG1GT62JcZadLz4owTA",
+          "renderModuleFilePath": "plasmic/xiang_portfolio/PlasmicMenuOverlay.jsx",
+          "importSpec": {
+            "modulePath": "MenuOverlay.jsx"
+          },
+          "cssFilePath": "plasmic/xiang_portfolio/PlasmicMenuOverlay.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "qDGNkHLQJS",
+          "name": "Vector2Icon",
+          "moduleFilePath": "plasmic/xiang_portfolio/icons/PlasmicIcon__Vector2.jsx"
+        },
+        {
+          "id": "HGDl8RHIbNP",
+          "name": "Vector4Icon",
+          "moduleFilePath": "plasmic/xiang_portfolio/icons/PlasmicIcon__Vector4.jsx"
+        },
+        {
+          "id": "JewPDaOGdxG",
+          "name": "Line4Icon",
+          "moduleFilePath": "plasmic/xiang_portfolio/icons/PlasmicIcon__Line4.jsx"
+        },
+        {
+          "id": "xOSCi89jlei",
+          "name": "EnvelopeIcon",
+          "moduleFilePath": "plasmic/xiang_portfolio/icons/PlasmicIcon__Envelope.jsx"
+        },
+        {
+          "id": "q6lxaATz3rw",
+          "name": "Envelope2Icon",
+          "moduleFilePath": "plasmic/xiang_portfolio/icons/PlasmicIcon__Envelope2.jsx"
+        },
+        {
+          "id": "Vk_zTE95rXz",
+          "name": "InstagramLogoIcon",
+          "moduleFilePath": "plasmic/xiang_portfolio/icons/PlasmicIcon__InstagramLogo.jsx"
+        },
+        {
+          "id": "qIJkHXaAirk",
+          "name": "PinterestLogoIcon",
+          "moduleFilePath": "plasmic/xiang_portfolio/icons/PlasmicIcon__PinterestLogo.jsx"
+        },
+        {
+          "id": "QCB4Ot3uTP",
+          "name": "Vector1Icon",
+          "moduleFilePath": "plasmic/xiang_portfolio/icons/PlasmicIcon__Vector1.jsx"
+        },
+        {
+          "id": "S3xG3HOwt4",
+          "name": "VectorIcon",
+          "moduleFilePath": "plasmic/xiang_portfolio/icons/PlasmicIcon__Vector.jsx"
+        },
+        {
+          "id": "nSlOqcrTXe",
+          "name": "Line8Icon",
+          "moduleFilePath": "plasmic/xiang_portfolio/icons/PlasmicIcon__Line8.jsx"
+        },
+        {
+          "id": "1uWd_133mT",
+          "name": "IconmonstrWhatsapp11Icon",
+          "moduleFilePath": "plasmic/xiang_portfolio/icons/PlasmicIcon__IconmonstrWhatsapp11.jsx"
+        },
+        {
+          "id": "VGZUFkb_F",
+          "name": "IconmonstrPinterest11Icon",
+          "moduleFilePath": "plasmic/xiang_portfolio/icons/PlasmicIcon__IconmonstrPinterest11.jsx"
+        },
+        {
+          "id": "xfIkq-3otM",
+          "name": "IconmonstrInstagram111Icon",
+          "moduleFilePath": "plasmic/xiang_portfolio/icons/PlasmicIcon__IconmonstrInstagram111.jsx"
+        },
+        {
+          "id": "nikmI0ruPN",
+          "name": "Line17Icon",
+          "moduleFilePath": "plasmic/xiang_portfolio/icons/PlasmicIcon__Line17.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "eqmT2cU3a",
+          "name": "IMG_5304 1",
+          "filePath": "../public/plasmic/xiang_portfolio/images/img53041.jpeg"
+        },
+        {
+          "id": "TrqCQkNnp9",
+          "name": "IMG_5302 1",
+          "filePath": "../public/plasmic/xiang_portfolio/images/img53021.jpeg"
+        },
+        {
+          "id": "JuOWlsTkqj",
+          "name": "ad4d7d21-938c-48dd-9c68-b7f92debca56 2",
+          "filePath": "../public/plasmic/xiang_portfolio/images/ad4D7D21938C48Dd9C68B7F92Debca562.jpeg"
+        },
+        {
+          "id": "_aqnK86y2S",
+          "name": "IMG_5303",
+          "filePath": "../public/plasmic/xiang_portfolio/images/img5303.jpeg"
+        },
+        {
+          "id": "mRQsA2IB0e",
+          "name": "IMG_5357 1",
+          "filePath": "../public/plasmic/xiang_portfolio/images/img53571.jpeg"
+        },
+        {
+          "id": "lNomAl7ONx",
+          "name": "WhatsApp",
+          "filePath": "../public/plasmic/xiang_portfolio/images/whatsApp.png"
+        },
+        {
+          "id": "7KU-WW4o8",
+          "name": "IMG_5307 1",
+          "filePath": "../public/plasmic/xiang_portfolio/images/img53071.jpeg"
+        },
+        {
+          "id": "m1Pd1TQ9w",
+          "name": "IMG_5302 1 BW.png",
+          "filePath": "../public/plasmic/xiang_portfolio/images/img53021BWpng.png"
+        }
+      ],
+      "codeComponents": [],
+      "projectApiToken": "AofGGM88piN5gqYBW2C2jm6DHknN9SGZWdf0E1x6aAzdGxMV2zr3Zik4gPbOVhGdS6VQPSe2T5B5MN4Iw"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "odSb3nMDUr",
+        "name": "Screen",
+        "projectId": "9exzG1GT62JcZadLz4owTA",
+        "contextFilePath": "plasmic/xiang_portfolio/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.158",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.158/dist/plasmic.schema.json"
+}

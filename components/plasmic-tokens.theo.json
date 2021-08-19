@@ -1,0 +1,29 @@
+{
+  "props": [
+    {
+      "name": "DesktopMaxWidth",
+      "type": "spacing",
+      "value": "1200px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "9exzG1GT62JcZadLz4owTA",
+        "id": "jLDgBCnRL"
+      }
+    },
+    {
+      "name": "text",
+      "type": "color",
+      "value": "#74625A",
+      "category": "color",
+      "meta": {
+        "projectId": "9exzG1GT62JcZadLz4owTA",
+        "id": "_-pdkUEzI"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}

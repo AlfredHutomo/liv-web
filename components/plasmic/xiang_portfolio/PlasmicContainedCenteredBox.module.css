@@ -1,0 +1,89 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  max-width: 1200px /* plasmic-token: jLDgBCnRL */;
+  position: relative;
+  min-width: 0;
+  padding: 60px 30px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: unset;
+  margin-top: calc(0px - 40px);
+  height: calc(100% + 40px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 40px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    height: 557px;
+    padding: 30px;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root > :global(.__wab_flex-container) {
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 15px);
+    height: calc(100% + 15px);
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root > :global(.__wab_flex-container) > *,
+  .root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .root > :global(.__wab_flex-container) > picture > img,
+  .root
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+}
+.bigText {
+  position: relative;
+  height: auto;
+  font-size: 32px;
+  font-weight: 500;
+}
+.smallText {
+  display: block;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 1.09;
+  color: rgba(116, 97, 89, 1);
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .smallText {
+    font-size: 1.2em;
+    height: auto;
+  }
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  width: 400px;
+  height: 1em;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg {
+    width: 200px;
+  }
+}
